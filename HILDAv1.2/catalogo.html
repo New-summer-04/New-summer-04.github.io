@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo - Colibri Cosmética Natural</title>
+    <link rel="stylesheet" href="catalogo.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="/" class="logo">
+                <img src="logo.jpg" alt="Colibri Logo" width="50" height="50">
+            </a>
+            <nav>
+                <button class="menu-toggle" aria-label="Abrir menú">&#9776;</button>
+                <ul class="menu">
+                    <li><a href="index.html"><i data-lucide="home"></i> Inicio</a></li>
+                    <li><a href="catalogo.html"><i data-lucide="book-open"></i> Catálogo</a></li>
+                    <li><a href="conocenos.html"><i data-lucide="users"></i> Conócenos</a></li>
+                    <li><a href="contactanos.html"><i data-lucide="mail"></i> Contáctanos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="catalog-hero">
+            <div class="container">
+                <h1><i data-lucide="shopping-bag"></i> Nuestro Catálogo</h1>
+                <p><i data-lucide="heart"></i> Descubre nuestra gama de productos naturales y libres de crueldad animal</p>
+            </div>
+        </section>
+
+        <section class="catalog">
+            <div class="container">
+                <div class="filters">
+                    <h2><i data-lucide="filter"></i> Filtrar por:</h2>
+                    <button class="filter-button active" data-filter="all"><i data-lucide="grid"></i> Todos</button>
+                    <button class="filter-button" data-filter="facial"><i data-lucide="smile"></i> Cuidado Facial</button>
+                    <button class="filter-button" data-filter="corporal"><i data-lucide="droplet"></i> Cuidado Corporal</button>
+                    <button class="filter-button" data-filter="cabello"><i data-lucide="feather"></i> Cuidado del Cabello</button>
+                </div>
+                <div class="product-grid">
+                    <div class="product-card" data-category="facial">
+                        <img src="img/a.jpg?height=300&width=300" alt="Crema Hidratante" class="product-image">
+                        <h3><i data-lucide="droplet"></i> Crema Hidratante</h3>
+                        <p><i data-lucide="zap"></i> Nutre y revitaliza tu piel con ingredientes naturales</p>
+                        <span class="price"><i data-lucide="tag"></i> $250 MXN</span>
+                        <a href="productos.html?id=crema-facial"class="button"><i data-lucide="shopping-cart"></i> Ver producto</a>
+                    </div>
+                    <div class="product-card" data-category="corporal">
+                        <img src="img/b.jpg?height=300&width=300"alt="Aceite Corporal" class="product-image">
+                        <h3><i data-lucide="droplet"></i> Aceite Corporal</h3>
+                        <p><i data-lucide="zap"></i> Hidrata y suaviza tu piel con aceites esenciales</p>
+                        <span class="price"><i data-lucide="tag"></i> $300 MXN</span>
+                        <a href="productos.html?id=aceite-corporal"class="button"><i data-lucide="shopping-cart"></i> Ver producto</a>
+                    </div>
+                    <div class="product-card" data-category="cabello">
+                        <img src="img/c.jpg?height=300&width=300" alt="Shampoo Natural" class="product-image">
+                        <h3><i data-lucide="feather"></i> Shampoo Natural</h3>
+                        <p><i data-lucide="zap"></i> Limpia y fortalece tu cabello sin químicos agresivos</p>
+                        <span class="price"><i data-lucide="tag"></i> $180 MXN</span>
+                        <a href="productos.html?id=shampoo-natural"class="button"><i data-lucide="shopping-cart"></i> Ver producto</a>
+                    </div>
+                    <div class="product-card" data-category="facial">
+                        <img src="img/d.jpg?height=300&width=300" alt="Serum Facial" class="product-image">
+                        <h3><i data-lucide="droplet"></i> Serum Facial</h3>
+                        <p><i data-lucide="zap"></i> Combate los signos del envejecimiento con ingredientes activos</p>
+                        <span class="price"><i data-lucide="tag"></i> $350 MXN</span>
+                        <a href="productos.html?id=serum-facial"class="button"><i data-lucide="shopping-cart"></i> Ver producto</a>
+                    </div>
+                    <div class="product-card" data-category="corporal">
+                        <img src="img/a.jpg?height=300&width=300" alt="Jabón Artesanal" class="product-image">
+                        <h3><i data-lucide="droplet"></i> Jabón Artesanal</h3>
+                        <p><i data-lucide="zap"></i> Limpieza suave y natural para todo tipo de piel</p>
+                        <span class="price"><i data-lucide="tag"></i> $80 MXN</span>
+                        <a href="productos.html?id=jabon-artesanal"class="button"><i data-lucide="shopping-cart"></i> Ver producto</a>
+                    </div>
+                    <div class="product-card" data-category="cabello">
+                        <img src="img/b.jpg?height=300&width=300" alt="Acondicionador Natural" class="product-image">
+                        <h3><i data-lucide="feather"></i> Acondicionador Natural</h3>
+                        <p><i data-lucide="zap"></i> Nutre y desenreda tu cabello con ingredientes botánicos</p>
+                        <span class="price"><i data-lucide="tag"></i> $200 MXN</span>
+                        <a href="productos.html?id=acondicionador-natural"class="button"><i data-lucide="shopping-cart"></i> Ver producto</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="logo.jpg" alt="Colibri Logo" width="32" height="32">
+                    <span>Colibri</span>
+                </div>
+                <p><i data-lucide="info"></i> Cosmética Natural. Productos libres de crueldad animal.</p>
+            </div>
+            <div class="footer-links">
+                <div>
+                    <h4><i data-lucide="at-sign"></i> Síguenos</h4>
+                    <ul>
+                        <li><a href="https://www.instagram.com/colibricosmeticateno/"><i data-lucide="instagram"></i> Instagram</a></li>
+                        <li><a href="https://www.facebook.com/colibri1cosmeticanatural"><i data-lucide="facebook"></i> Facebook</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4><i data-lucide="phone"></i> Contacto</h4>
+                    <ul>
+                        <li><i data-lucide="phone"></i> Tel: 56-27-35-19-21</li>
+                        <li><i data-lucide="map-pin"></i> San Francisco Tenopalco</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="catalogo.js"></script>
+</body>
+</html>

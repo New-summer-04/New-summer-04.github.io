@@ -1,0 +1,104 @@
+{
+  "crema-facial": {
+      "name": "Crema Facial Hidratante",
+      "description": "Una crema facial ligera y nutritiva que proporciona hidratación profunda para todo tipo de piel.",
+      "features": [
+          "Hidratación de larga duración",
+          "Fórmula no grasa",
+          "Apta para todo tipo de piel"
+      ],
+      "ingredients": "Agua, glicerina, aceite de jojoba, manteca de karité, extracto de aloe vera, vitamina E.",
+      "usage": "Aplicar una pequeña cantidad sobre el rostro y cuello limpios, masajeando suavemente con movimientos circulares. Usar mañana y noche para mejores resultados.",
+      "images": [
+          "img/a.jpg",
+          "img/b.jpg",
+          "img/c.jpg",
+          "img/d.jpg"
+      ]
+  },
+  "aceite-corporal": {
+      "name": "Aceite Corporal Nutritivo",
+      "description": "Un aceite corporal que hidrata profundamente y deja tu piel suave y radiante.",
+      "features": [
+          "Textura ligera de rápida absorción",
+          "Ideal para pieles secas",
+          "Aroma relajante a lavanda"
+      ],
+      "ingredients": "Aceite de almendras dulces, aceite de jojoba, aceite esencial de lavanda, vitamina E.",
+      "usage": "Aplicar después del baño con la piel húmeda, masajeando suavemente hasta su absorción.",
+      "images": [
+          "img/b.jpg",
+          "img/a.jpg",
+          "img/c.jpg",
+          "img/d.jpg"
+      ]
+  },
+  "shampoo-natural": {
+      "name": "Shampoo Natural",
+      "description": "Un shampoo suave que limpia y fortalece tu cabello sin químicos agresivos.",
+      "features": [
+          "Libre de sulfatos y parabenos",
+          "Ideal para cabellos frágiles",
+          "Fórmula enriquecida con aceites naturales"
+      ],
+      "ingredients": "Agua, aceite de coco, extracto de manzanilla, proteína de trigo, aceite esencial de romero.",
+      "usage": "Aplicar una pequeña cantidad sobre el cabello mojado, masajear y enjuagar bien.",
+      "images": [
+          "img/c.jpg",
+          "img/b.jpg",
+          "img/a.jpg",
+          "img/d.jpg"
+      ]
+  },
+  "serum-facial": {
+      "name": "Serum Facial Antiedad",
+      "description": "Un serum concentrado que combate los signos del envejecimiento y mejora la elasticidad de la piel.",
+      "features": [
+          "Fórmula rica en antioxidantes",
+          "Reduce líneas finas y arrugas",
+          "Mejora la firmeza de la piel"
+      ],
+      "ingredients": "Ácido hialurónico, extracto de té verde, vitamina C, aceite de rosa mosqueta.",
+      "usage": "Aplicar unas gotas sobre la piel limpia antes de la crema hidratante. Usar por la noche.",
+      "images": [
+          "img/d.jpg",
+          "img/a.jpg",
+          "img/b.jpg",
+          "img/c.jpg"
+      ]
+  },
+  "jabon-artesanal": {
+      "name": "Jabón Artesanal",
+      "description": "Un jabón suave elaborado con ingredientes naturales para todo tipo de piel.",
+      "features": [
+          "Limpieza profunda pero suave",
+          "Aroma fresco y natural",
+          "Ideal para uso diario"
+      ],
+      "ingredients": "Aceite de oliva, aceite de coco, agua, hidróxido de sodio, extracto de caléndula.",
+      "usage": "Humedecer el jabón, frotar suavemente sobre la piel y enjuagar con agua tibia.",
+      "images": [
+          "img/a.jpg",
+          "img/c.jpg",
+          "img/b.jpg",
+          "img/d.jpg"
+      ]
+  },
+  "acondicionador-natural": {
+      "name": "Acondicionador Natural",
+      "description": "Un acondicionador suave que desenreda y nutre el cabello con ingredientes botánicos.",
+      "features": [
+          "Hidrata sin apelmazar",
+          "Fortalece el cabello desde la raíz",
+          "Deja el cabello suave y brillante"
+      ],
+      "ingredients": "Aceite de argán, extracto de aloe vera, proteína de seda, aceite esencial de lavanda.",
+      "usage": "Aplicar sobre el cabello limpio y húmedo, dejando actuar por 2-3 minutos antes de enjuagar.",
+      "images": [
+          "img/b.jpg",
+          "img/d.jpg",
+          "img/c.jpg",
+          "img/a.jpg"
+      ]
+  }
+}

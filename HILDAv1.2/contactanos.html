@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctanos - Colibri Cosmética Natural</title>
+    <link rel="stylesheet" href="contactanos.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="/" class="logo">
+                <img src="logo.jpg" alt="Colibri Logo" width="50" height="50">
+            </a>
+            <nav>
+                <button class="menu-toggle" aria-label="Abrir menú">&#9776;</button>
+                <ul class="menu">
+                    <li><a href="index.html"><i data-lucide="home"></i> Inicio</a></li>
+                    <li><a href="catalogo.html"><i data-lucide="book-open"></i> Catálogo</a></li>
+                    <li><a href="conocenos.html"><i data-lucide="users"></i> Conócenos</a></li>
+                    <li><a href="contactanos.html"><i data-lucide="mail"></i> Contáctanos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="contact-hero">
+            <div class="container">
+                <h1><i data-lucide="mail"></i> Contáctanos</h1>
+                <p><i data-lucide="message-circle"></i> Estamos aquí para responder tus preguntas y escuchar tus comentarios</p>
+            </div>
+        </section>
+
+        <section class="contact-content">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-form">
+                        <h2><i data-lucide="send"></i> Envíanos un mensaje</h2>
+                        <form id="contact-form">
+                            <div class="form-group">
+                                <label for="name"><i data-lucide="user"></i> Nombre:</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email"><i data-lucide="at-sign"></i> Correo electrónico:</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject"><i data-lucide="tag"></i> Asunto:</label>
+                                <input type="text" id="subject" name="subject" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message"><i data-lucide="message-square"></i> Mensaje:</label>
+                                <textarea id="message" name="message" required></textarea>
+                            </div>
+                            <button type="submit" class="button"><i data-lucide="send"></i> Enviar mensaje</button>
+                        </form>
+                    </div>
+                    <div class="contact-info">
+                        <h2><i data-lucide="info"></i> Información de contacto</h2>
+                        <ul>
+                            <li>
+                                <i data-lucide="map-pin"></i>
+                                <span>San Francisco Tenopalco, Melchor Ocampo, Estado de México</span>
+                            </li>
+                            <li>
+                                <i data-lucide="phone"></i>
+                                <span>56-27-35-19-21</span>
+                            </li>
+                            <li>
+                                <i data-lucide="mail"></i>
+                                <span>info@colibricosmetica.com</span>
+                            </li>
+                        </ul>
+                        <h3><i data-lucide="share-2"></i> Síguenos en redes sociales</h3>
+                        <div class="social-links">
+                            <a href="#" aria-label="Facebook">
+                                <i data-lucide="facebook"></i>
+                            </a>
+                            <a href="#" aria-label="Instagram">
+                                <i data-lucide="instagram"></i>
+                            </a>
+                        </div>
+                        <h3><i data-lucide="message-circle"></i> Contáctanos por WhatsApp</h3>
+                        <a href="#" class="whatsapp-button" id="whatsapp-button">
+                            <i data-lucide="message-circle"></i>
+                            Enviar mensaje por WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="logo.jpg" alt="Colibri Logo" width="32" height="32">
+                    <span>Colibri</span>
+                </div>
+                <p><i data-lucide="info"></i> Cosmética Natural. Productos libres de crueldad animal.</p>
+            </div>
+            <div class="footer-links">
+                <div>
+                    <h4><i data-lucide="at-sign"></i> Síguenos</h4>
+                    <ul>
+                        <li><a href="https://www.instagram.com/colibricosmeticateno/"><i data-lucide="instagram"></i> Instagram</a></li>
+                        <li><a href="https://www.facebook.com/colibri1cosmeticanatural"><i data-lucide="facebook"></i> Facebook</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4><i data-lucide="phone"></i> Contacto</h4>
+                    <ul>
+                        <li><i data-lucide="phone"></i> Tel: 56-27-35-19-21</li>
+                        <li><i data-lucide="map-pin"></i> San Francisco Tenopalco</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="contactanos.js"></script>
+</body>
+</html>
+

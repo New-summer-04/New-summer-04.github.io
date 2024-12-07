@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colibri Cosmética Natural</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="/" class="logo">
+                <img src="logo.jpg" alt="Colibri Logo" width="50" height="50">
+            </a>
+            <nav>
+                <button class="menu-toggle" aria-label="Abrir menú">&#9776;</button>
+                <ul class="menu">
+                    <li><a href="index.html"><i data-lucide="home"></i> Inicio</a></li>
+                    <li><a href="catalogo.html"><i data-lucide="book-open"></i> Catálogo</a></li>
+                    <li><a href="conocenos.html"><i data-lucide="users"></i> Conócenos</a></li>
+                    <li><a href="contactanos.html"><i data-lucide="mail"></i> Contáctanos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1><i data-lucide="sun"></i> Bienvenido a Colibri Cosmética Natural</h1>
+                <p><i data-lucide="heart"></i> Descubre la belleza natural con nuestros productos libres de crueldad animal</p>
+                <a href="#featured-products" class="button"><i data-lucide="chevron-down"></i> Ver productos destacados</a>
+            </div>
+        </section>
+
+        <section id="featured-products" class="featured-products">
+            <div class="container">
+                <h2><i data-lucide="star"></i> Productos destacados</h2>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <img src="img/a.jpg?height=200&width=200" alt="Crema Hidratante" class="product-image">
+                        <h3><i data-lucide="droplet"></i> Crema Hidratante</h3>
+                        <p><i data-lucide="zap"></i> Nutre y revitaliza tu piel con ingredientes naturales</p>
+                        <a href="#" class="button"><i data-lucide="eye"></i> Ver detalles</a>
+                    </div>
+                    <div class="product-card">
+                        <img src="img/a.jpg?height=200&width=200" alt="Aceite Esencial" class="product-image">
+                        <h3><i data-lucide="feather"></i> Aceite Esencial</h3>
+                        <p><i data-lucide="zap"></i> Aromaterapia natural para tu bienestar</p>
+                        <a href="#" class="button"><i data-lucide="eye"></i> Ver detalles</a>
+                    </div>
+                    <div class="product-card">
+                        <img src="img/c.jpg?height=200&width=200" alt="Jabón Artesanal" class="product-image">
+                        <h3><i data-lucide="droplet"></i> Jabón Artesanal</h3>
+                        <p><i data-lucide="zap"></i> Limpieza suave y natural para todo tipo de piel</p>
+                        <a href="#" class="button"><i data-lucide="eye"></i> Ver detalles</a>
+                    </div>
+                    <div class="product-card">
+                        <img src="img/b.jpg?height=200&width=200" alt="Mascarilla Facial" class="product-image">
+                        <h3><i data-lucide="smile"></i> Mascarilla Facial</h3>
+                        <p><i data-lucide="zap"></i> Revitaliza y purifica tu piel con ingredientes naturales</p>
+                        <a href="#" class="button"><i data-lucide="eye"></i> Ver detalles</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-us">
+            <div class="container">
+                <h2><i data-lucide="info"></i> Sobre Nosotros</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p><i data-lucide="heart"></i> En Colibri, nos dedicamos a crear productos de belleza naturales y libres de crueldad animal. Nuestra misión es ofrecer cosméticos de alta calidad que cuiden tanto de ti como del medio ambiente.</p>
+                        <a href="conocenos.html" class="button"><i data-lucide="users"></i> Conoce más sobre nosotros</a>
+                    </div>
+                    <div class="about-image">
+                        <img src="img/a.jpg?height=300&width=400" alt="Nuestro equipo" class="team-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+    <div class="container">
+        <h2><i data-lucide="message-circle"></i> Lo que dicen nuestros clientes</h2>
+        <div class="testimonial-grid">
+            <div class="testimonial-card">
+                <img src="img/gojo.jpg" alt="María G." class="testimonial-image">
+                <p><i data-lucide="quote"></i> "Los productos de Colibri han transformado mi rutina de cuidado de la piel. ¡Increíble calidad!"</p>
+                <cite>- María G.</cite>
+            </div>
+            <div class="testimonial-card">
+                <img src="img/gojo.jpg" alt="Carlos R." class="testimonial-image">
+                <p><i data-lucide="quote"></i> "Me encanta que sean productos naturales y libres de crueldad. ¡Recomendado al 100%!"</p>
+                <cite>- Carlos R.</cite>
+            </div>
+            <div class="testimonial-card">
+                <img src="img/gojo.jpg" alt="Ana L." class="testimonial-image">
+                <p><i data-lucide="quote"></i> "Desde que uso Colibri, mi piel se siente más saludable y radiante. ¡Gracias!"</p>
+                <cite>- Ana L.</cite>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <section class="instagram-feed">
+            <div class="container">
+                <h2><i data-lucide="instagram"></i> Síguenos en Instagram</h2>
+                <div class="instagram-grid">
+                    <img src="img/e.jpg?height=200&width=200" alt="Instagram post 1" class="instagram-image">
+                    <img src="img/f.jpg?height=200&width=200" alt="Instagram post 2" class="instagram-image">
+                    <img src="img/a.jpg?height=200&width=200" alt="Instagram post 3" class="instagram-image">
+                    <img src="img/a.jpg?height=200&width=200" alt="Instagram post 4" class="instagram-image">
+                </div>
+                <a href="https://www.instagram.com/colibricosmeticateno/" class="button instagram-button"><i data-lucide="instagram"></i> Ver más en Instagram</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="logo.jpg" alt="Colibri Logo" width="32" height="32">
+                    <span>Colibri</span>
+                </div>
+                <p><i data-lucide="info"></i> Cosmética Natural. Productos libres de crueldad animal.</p>
+            </div>
+            <div class="footer-links">
+                <div>
+                    <h4><i data-lucide="at-sign"></i> Síguenos</h4>
+                    <ul>
+                        <li><a href="https://www.instagram.com/colibricosmeticateno/"><i data-lucide="instagram"></i> Instagram</a></li>
+                        <li><a href="https://www.facebook.com/colibri1cosmeticanatural"><i data-lucide="facebook"></i> Facebook</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4><i data-lucide="phone"></i> Contacto</h4>
+                    <ul>
+                        <li><i data-lucide="phone"></i> Tel: 56-27-35-19-21</li>
+                        <li><i data-lucide="map-pin"></i> San Francisco Tenopalco</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
